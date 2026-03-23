@@ -1,0 +1,183 @@
+/* ── Base header shell ── */
+.amz-header {
+  background-color: #0f172a !important;
+  border-bottom: 1px solid rgba(15, 17, 17, 0.1);
+}
+
+.amz-navbar {
+  background-color: #0f172a !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.amz-navbar .container {
+  background-color: #0f172a !important;
+}
+
+/* ── Brand ── */
+.amz-brand {
+  color: #ffffff !important;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+}
+
+.amz-brand__dot {
+  color: #f08804;
+  font-weight: 900;
+  margin-left: 2px;
+}
+
+/* ── Toggler ── */
+.amz-toggler {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.amz-toggler .navbar-toggler-icon {
+  filter: invert(1);
+}
+
+/* ── Nav links ── */
+.amz-navbar .nav-link,
+.amz-navbar .navbar-brand,
+.amz-navbar .dropdown-toggle,
+.amz-navbar .btn,
+.amz-navbar span,
+.amz-navbar p,
+.amz-navbar a {
+  color: #ffffff !important;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+.amz-navbar .nav-link:hover,
+.amz-navbar .navbar-brand:hover,
+.amz-navbar a:hover {
+  color: #facc15 !important;
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.amz-navbar .nav-link.active {
+  color: #fff !important;
+  background: rgba(255, 255, 255, 0.14);
+}
+
+/* ── Search bar ── */
+.amz-search {
+  display: flex;
+  align-items: stretch;
+  gap: 0;
+  flex: 1 1 520px;
+  max-width: 680px;
+}
+
+.amz-search__input {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 40px;
+  border: 1px solid rgba(15, 17, 17, 0.18);
+}
+
+.amz-search__input:focus {
+  box-shadow: 0 0 0 3px rgba(254, 189, 105, 0.35);
+  border-color: rgba(240, 136, 4, 0.6);
+}
+
+.amz-search__btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  height: 40px;
+  background: var(--amz-accent);
+  border: 1px solid rgba(15, 17, 17, 0.18);
+  font-weight: 800;
+  color: #111;
+}
+
+.amz-search__btn:hover {
+  background: var(--amz-accent-2);
+}
+
+/* ── Header buttons ── */
+.amz-btn {
+  height: 40px;
+  border-radius: 12px;
+  font-weight: 800;
+  padding: 0 14px;
+}
+
+.amz-btn--ghost {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  background: transparent;
+}
+
+.amz-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}
+
+.amz-btn--primary {
+  background: #ffd814;
+  border: 1px solid #fcd200;
+  color: #111;
+}
+
+.amz-btn--primary:hover {
+  background: #f7ca00;
+}
+
+.amz-btn--warn {
+  background: transparent;
+  border: 1px solid rgba(220, 53, 69, 0.4);
+  color: #dc3545;
+}
+
+.amz-btn--warn:hover {
+  background: rgba(220, 53, 69, 0.08);
+}
+
+/* ── Cart link & badge ── */
+.amz-cartlink {
+  position: relative;
+  padding-right: 40px !important;
+}
+
+.amz-cartlink__icon {
+  margin-right: 8px;
+}
+
+.amz-cartlink__badge {
+  position: absolute;
+  top: 6px;
+  right: 10px;
+  min-width: 24px;
+  height: 20px;
+  padding: 0 6px;
+  border-radius: 999px;
+  background: #f08804;
+  color: #111;
+  font-weight: 900;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ── Subnav ── */
+.amz-subnav {
+  background: var(--amz-subheader);
+  padding: 8px 0;
+  border-top: 1px solid rgba(15, 17, 17, 0.06);
+}
+
+.amz-subnav__link {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 700;
+  font-size: 14px;
+  padding: 6px 10px;
+  border-radius: 10px;
+}
+
+.amz-subnav__link:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: #fff;
+}

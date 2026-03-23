@@ -1,0 +1,419 @@
+/* ── Admin page layout ── */
+.amz-pagehead {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.amz-table {
+  background: var(--amz-surface);
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.amz-table .table {
+  margin-bottom: 0;
+}
+
+.amz-kpi {
+  border-radius: 14px;
+  background: var(--amz-surface);
+  box-shadow: 0 10px 25px rgba(15, 17, 17, 0.08);
+}
+
+/* ── Admin status pills ── */
+.admin-pill {
+  font-weight: 900;
+  font-size: 12px;
+  border-radius: 999px;
+  padding: 6px 10px;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid transparent;
+  background: rgba(108, 117, 125, 0.14);
+  color: #6c757d;
+}
+
+.admin-pill--placed    { background: #eef2ff; color: #4338ca; border-color: #c7d2fe; }
+.admin-pill--packed    { background: #fff7ed; color: #c2410c; border-color: #fed7aa; }
+.admin-pill--shipped   { background: #eff6ff; color: #1d4ed8; border-color: #bfdbfe; }
+.admin-pill--delivered { background: #ecfdf3; color: #15803d; border-color: #bbf7d0; }
+.admin-pill--cancelled { background: #fef2f2; color: #b91c1c; border-color: #fecaca; }
+
+/* ── Admin generic box ── */
+.admin-box {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  overflow: hidden;
+  background: #fff;
+}
+
+.admin-box--hover {
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.admin-box--hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.admin-box__media {
+  height: 90px;
+  background: linear-gradient(135deg, #f7f8fa, #eef1f5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-box__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+/* ── Admin dashboard tiles ── */
+.admin-grid .admin-tile {
+  border-radius: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+}
+
+.admin-grid .admin-tile:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.admin-tile__media {
+  height: 92px;
+  background: linear-gradient(135deg, #f7f8fa, #eef1f5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-tile__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.admin-tile__title {
+  font-weight: 900;
+}
+
+.admin-tile__sub {
+  color: #565959;
+  font-size: 13px;
+}
+
+/* ── Admin orders page ── */
+.admin-orders-page {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-orders-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.admin-orders-empty {
+  background: #fff;
+  border: 1px solid #e9ecef;
+  border-radius: 16px;
+  padding: 32px;
+  text-align: center;
+  color: #6c757d;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+}
+
+.admin-orders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 18px;
+}
+
+.admin-orders-card {
+  background: #fff;
+  border: 1px solid #eceff3;
+  border-radius: 18px;
+  padding: 18px;
+  box-shadow: 0 8px 24px rgba(16, 24, 40, 0.06);
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.admin-orders-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 34px rgba(16, 24, 40, 0.1);
+  border-color: #dbe4f0;
+}
+
+.admin-orders-card__top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.admin-orders-card__id {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #111827;
+}
+
+.admin-orders-card__user {
+  margin-top: 4px;
+  color: #6b7280;
+  font-size: 0.92rem;
+  word-break: break-word;
+}
+
+.admin-orders-card__meta {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.admin-orders-stat {
+  background: #f8fafc;
+  border: 1px solid #eef2f7;
+  border-radius: 14px;
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.admin-orders-stat__label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.admin-orders-stat__value {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.admin-orders-stat__value--small {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.admin-orders-card__middle {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-orders-card__middle .form-select {
+  border-radius: 12px;
+  min-height: 44px;
+}
+
+.admin-orders-card__actions {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.admin-orders-card__actions .btn {
+  border-radius: 10px;
+  min-width: 120px;
+}
+
+@media (max-width: 576px) {
+  .admin-orders-card {
+    padding: 14px;
+  }
+
+  .admin-orders-card__meta {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-orders-card__actions .btn {
+    width: 100%;
+  }
+}
+
+/* ── Admin order card grid (product-card style) ── */
+.admin-order-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 14px;
+}
+
+.admin-order-col {
+  grid-column: span 12;
+}
+
+@media (min-width: 768px) {
+  .admin-order-col { grid-column: span 6; }
+}
+
+@media (min-width: 1200px) {
+  .admin-order-col { grid-column: span 4; }
+}
+
+.admin-order-card {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 14px;
+  background: #fff;
+  overflow: hidden;
+  transition: transform 0.12s ease, box-shadow 0.12s ease, border-color 0.12s ease;
+  height: 100%;
+}
+
+.admin-order-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.1);
+  border-color: rgba(0, 0, 0, 0.14);
+}
+
+.admin-order-card__top {
+  padding: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+
+.admin-order-card__media {
+  height: 90px;
+  background: linear-gradient(135deg, #f7f8fa, #eef1f5);
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-order-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.admin-order-card__body {
+  padding: 12px;
+}
+
+.admin-order-kv {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 12px;
+}
+
+.admin-order-kv .label {
+  font-size: 12px;
+  color: #565959;
+}
+
+.admin-order-kv .value {
+  font-weight: 900;
+  color: #0f1111;
+}
+
+.admin-order-card__actions {
+  padding: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  gap: 8px;
+}
+
+.admin-order-card__actions .btn {
+  flex: 1;
+}
+
+/* ── Admin help panel ── */
+.admin-help {
+  display: grid;
+  gap: 10px;
+}
+
+.admin-help .rule {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  padding: 10px 12px;
+}
+
+.admin-help .rule .title {
+  font-weight: 900;
+}
+
+.admin-help code {
+  background: rgba(0, 0, 0, 0.05);
+  padding: 2px 6px;
+  border-radius: 8px;
+}
+
+/* ── Admin product form ── */
+.admin-form-card {
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+.admin-form-media {
+  height: 90px;
+  background: linear-gradient(135deg, #f7f8fa, #eef1f5);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 14px;
+}
+
+.admin-form-icon {
+  width: 52px;
+  height: 52px;
+  border-radius: 14px;
+  background: rgba(0, 0, 0, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
+
+.admin-form-title {
+  font-weight: 900;
+  margin: 0;
+}
+
+.admin-form-sub {
+  font-size: 13px;
+  color: #565959;
+  margin: 0;
+}
