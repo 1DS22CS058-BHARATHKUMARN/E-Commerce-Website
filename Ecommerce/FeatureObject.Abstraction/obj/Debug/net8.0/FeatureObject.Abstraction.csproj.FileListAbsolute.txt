@@ -1,0 +1,11 @@
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\bin\Debug\net8.0\FeatureObject.Abstraction.deps.json
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\bin\Debug\net8.0\FeatureObject.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\bin\Debug\net8.0\FeatureObject.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.AssemblyInfoInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.AssemblyInfo.cs
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\refint\FeatureObject.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\FeatureObject.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Abstraction\obj\Debug\net8.0\ref\FeatureObject.Abstraction.dll

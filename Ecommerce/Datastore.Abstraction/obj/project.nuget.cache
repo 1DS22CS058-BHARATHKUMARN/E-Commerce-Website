@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+uuDU+BVXTY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\6136991\\OneDrive - Thomson Reuters Incorporated\\Desktop\\Internship\\Ecommerce\\Datastore.Abstraction\\Datastore.Abstraction.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\6136991\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\8.0.24\\microsoft.windowsdesktop.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\6136991\\.nuget\\packages\\microsoft.netcore.app.ref\\8.0.24\\microsoft.netcore.app.ref.8.0.24.nupkg.sha512",
+    "C:\\Users\\6136991\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.24\\microsoft.aspnetcore.app.ref.8.0.24.nupkg.sha512"
+  ],
+  "logs": []
+}

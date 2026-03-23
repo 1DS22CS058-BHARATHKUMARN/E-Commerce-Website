@@ -1,0 +1,17 @@
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\FeatureObject.Implementation.deps.json
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\FeatureObject.Implementation.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\FeatureObject.Implementation.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\Datastore.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\FeatureObject.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\FeatureObject.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\bin\Debug\net8.0\Datastore.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.csproj.AssemblyReference.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.AssemblyInfoInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.AssemblyInfo.cs
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.csproj.CoreCompileInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureO.4E684B64.Up2Date
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\refint\FeatureObject.Implementation.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\FeatureObject.Implementation.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\FeatureObject.Implementation\obj\Debug\net8.0\ref\FeatureObject.Implementation.dll

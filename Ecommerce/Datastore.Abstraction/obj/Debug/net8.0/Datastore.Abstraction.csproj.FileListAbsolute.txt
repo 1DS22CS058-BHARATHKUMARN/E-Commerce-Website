@@ -1,0 +1,15 @@
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\bin\Debug\net8.0\Datastore.Abstraction.deps.json
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\bin\Debug\net8.0\Datastore.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\bin\Debug\net8.0\Datastore.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\bin\Debug\net8.0\FeatureObject.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\bin\Debug\net8.0\FeatureObject.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.csproj.AssemblyReference.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.AssemblyInfoInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.AssemblyInfo.cs
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.csproj.CoreCompileInputs.cache
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastor.744D712F.Up2Date
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\refint\Datastore.Abstraction.dll
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\Datastore.Abstraction.pdb
+C:\Users\6136991\OneDrive - Thomson Reuters Incorporated\Desktop\Internship\Ecommerce\Datastore.Abstraction\obj\Debug\net8.0\ref\Datastore.Abstraction.dll
